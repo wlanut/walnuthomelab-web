@@ -4,7 +4,7 @@ date: 2022-04-11 05:58:27
 # weight: 1
 # aliases: ["/first"]
 tags: ["lab"]
-# author: ""
+author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
@@ -14,7 +14,7 @@ comments: false
 #description: ""
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: false
@@ -27,10 +27,10 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/wlanut/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+# editPost:
+#     URL: "https://github.com/wlanut/content"
+#     Text: "Suggest Changes" # edit text
+#     appendFilePath: true # to append file path to Edit link
 ---
 
 

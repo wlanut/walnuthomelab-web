@@ -77,7 +77,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Howdy \U0001F44B"
-    Content: Welcome to my blog! I don't have a lot here at the moment, but this is where I plan on documenting my homelab progress and how it evolves over time.
+    Content: Welcome to my blog! I don't have a lot here at the moment, but this is where I plan on documenting my homelab progress and how it evolves over time. 
 
   # socialIcons:
     # - name: twitter
