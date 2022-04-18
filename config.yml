@@ -1,7 +1,7 @@
 baseURL: "https://walnuthomelab.com/"
 title: WalnutHomelab
 paginate: 5
-theme: PaperMod
+theme: PaperModX
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -31,6 +31,7 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  TocSide: 'right'  # or 'left'
 
   ShowReadingTime: true
   ShowShareButtons: true
