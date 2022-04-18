@@ -3,7 +3,7 @@ title: "Time Capsule"
 date: 2022-04-11 05:58:27
 # weight: 1
 # aliases: ["/first"]
-tags: [""]
+tags: ["lab"]
 # author: ""
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -22,7 +22,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "https://media-exp1.licdn.com/dms/image/C5622AQG1-4Wj5ep9-A/feedshare-shrink_1280/0/1623030876507?e=2147483647&v=beta&t=4H0lyH8wujJxsOqt0LPMQo175_qpJFoDS2oTFnXBAP8" # image path/url
+    image: "/img/timecapsule_cover.png" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
