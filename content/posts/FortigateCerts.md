@@ -206,7 +206,14 @@ Let's try to break this down, for your sake and mine.
 - import_playbook: deploy.yml
 ```
 
-All we're doing here is a simple play that imports both of the individual playbooks we created and runs them one after the other.
+All we're doing here is a simple play that imports both of the individual playbooks we created and runs them one after the other. If all goes well, and you don't get any script terminating errors, you should see some output stating there was a successful connection and that your tasks ran without any failures. Successful output should look something like this:
+
+![play](/img/fortigate/play_output.PNG)
+
+
+If you check `System > Feature Visibility` again you should see your newly uploaded cert.
+
+![play_output](/img/fortigate/cert_uploaded.PNG)
 
 # Wrap-Up
 
