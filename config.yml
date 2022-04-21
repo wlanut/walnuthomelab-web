@@ -110,11 +110,11 @@ params:
   # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
-    includeScore: true
-    shouldSort: true
+    includeScore: false
+    shouldSort: false
     location: 0
     distance: 1000
-    threshold: 0.3
+    threshold: 0.2
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
 menu:
