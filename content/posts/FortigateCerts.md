@@ -50,7 +50,7 @@ What I aim to do in this post is explain how to piece together your Fortigate de
 
 You'll want to start by navigating to your Fortigate's admin web interface and enabling certificates from `System > Feature Visibility`
 
-![cert](/img/fortigate/cert.PNG)
+![cert](/img/fortigate/cert.png)
 
 That's pretty much it as far as the Fortigate setup goes.
 
@@ -208,12 +208,11 @@ Let's try to break this down, for your sake and mine.
 
 All we're doing here is a simple play that imports both of the individual playbooks we created and runs them one after the other. If all goes well, and you don't get any script terminating errors, you should see some output stating there was a successful connection and that your tasks ran without any failures. Successful output should look something like this:
 
-![play](/img/fortigate/play_output.PNG)
-
+![play](/img/fortigate/play_output.png)
 
 If you check `System > Feature Visibility` again you should see your newly uploaded cert.
 
-![play_output](/img/fortigate/cert_uploaded.PNG)
+![play_output](/img/fortigate/cert_uploaded.png)
 
 # Wrap-Up
 
