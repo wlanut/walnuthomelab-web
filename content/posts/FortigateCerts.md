@@ -50,7 +50,7 @@ What I aim to do in this post is explain how to piece together your Fortigate de
 
 You'll want to start by navigating to your Fortigate's admin web interface and enabling certificates from `System > Feature Visibility`
 
-![cert](/img/fortigate/systemcert.png)
+![cert](/img/fortigate/systemcert1.png)
 
 That's pretty much it as far as the Fortigate setup goes.
 
