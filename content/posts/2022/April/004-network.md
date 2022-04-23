@@ -8,7 +8,7 @@ categories: ["homelab"]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
 hidemeta: false
 comments: false
