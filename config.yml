@@ -167,3 +167,8 @@ markup:
       hardWraps: false
       unsafe: true
       xhtml: false
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
