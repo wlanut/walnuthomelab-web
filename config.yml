@@ -119,18 +119,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: archives
+      name: archive
+      url: /archives/
+      weight: 20
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 30
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 40
     - identifier: search
       name: search
       url: /search/
-      weight: 8
+      weight: 10
     - identifier: Github
       name: github
       url: "https://github.com/wlanut"

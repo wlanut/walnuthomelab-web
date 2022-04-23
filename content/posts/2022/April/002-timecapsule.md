@@ -3,7 +3,8 @@ title: "Time Capsule"
 date: 2022-04-11 05:58:27
 # weight: 1
 # aliases: ["/first"]
-tags: ["lab"]
+tags: ["homelab"]
+categories: ["homelab"]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -22,7 +23,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "/img/timecapsule_cover.png" # image path/url
+    image: "/img/2022/April/002-timecapsule/timecapsule_cover.png" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -37,7 +38,8 @@ cover:
 
 We're taking a short trip back to approximately 1 year ago when I made my first and only "post" documenting the state of my homelab at any given point in time. I'm leaving the entirety of what follows unmodified for posterity. Since then, I've relocated my homelab to a new residence, made a large number of changes to both the physical and virtual infrastructure, and learned many lessons along the way. That, however, will be for a future post.
 
-![img1](/img/homelabfirst.jpg)
+![img1](/img/2022/April/002-timecapsule/homelabfirst.jpg)
+
 
 ## An evolving system
 I receive the internet through my ISP via fiber from the ONT, which goes to my ISP’s gateway. From there it goes to an unmanaged Netgear switch, and is distributed to several ethernet wall receptacles all over the house.

@@ -3,7 +3,8 @@ title: "The First One: Intro to WalnutHomelab"
 date: 2022-04-09 03:11:36
 # weight: 1
 # aliases: ["/first"]
-tags: ["lab"]
+tags: ["homelab"]
+categories: ["homelab"]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true

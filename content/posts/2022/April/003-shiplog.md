@@ -3,7 +3,8 @@ title: "Ship Log: April 2021"
 date: 2022-04-13 04:58:08
 # weight: 1
 # aliases: ["/first"]
-tags: ["lab"]
+tags: ["homelab"]
+categories: ["homelab"]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -23,7 +24,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 
 cover:
-    image: "img/april2021_cover.png" # image path/url
+    image: "/img/2022/April/003-shiplog/shiplog_cover.png" # image path/url
     alt: "There should be an image here..." # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -41,7 +42,7 @@ I chose this name because I briefly took up woodworking as a hobby, and walnut v
 
 ## The Lab<sup>tm</sup>
 
-![img1](/img/homelab.png)
+![img1](/img/2022/April/003-shiplog/homelab.png)
 
 As you can see, quite a lot has changed from the previous state of things. First off, I moved. After a job change that resulted in me being closer to my girlfriend's home than my parents', I moved into her place. I did not, however, bring my lab with me. The original server remains at my parents' place, and serves as my Wireguard/Ubiquiti machine so I can continue maintaining things if I need to. I still visit once in a while, so I can keep an eye on the server and the network remotely and in person.
 

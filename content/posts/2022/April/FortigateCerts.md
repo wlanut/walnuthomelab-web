@@ -3,7 +3,8 @@ title: "Using Ansible to deploy your Fortigate certificates"
 date: 2022-04-20 05:34:53  #(use ctrl+Shift+I to insert date string)
 # weight: 1
 # aliases: ["/first"]
-tags: ["fortigate"]
+tags: ["fortigate","networking","Ansible"]
+categories: ["tutorials"]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true

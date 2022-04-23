@@ -4,6 +4,7 @@ date: 2022-04-18 03:30:59 #(use ctrl+Shift+I to insert date string)
 # weight: 1
 # aliases: ["/first"]
 tags: [""]
+categories: [""]
 author: "Omar El-Sherif"
 # author: ["Me", "You"] # multiple authors
 showToc: true
