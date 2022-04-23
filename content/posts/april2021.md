@@ -51,7 +51,7 @@ The seed of upgrading my lab was planted when I stumbled across a Reddit post of
 
 ## Migration
 
-My migration journey began with a plan of sorts to migrate my existing infrastructure from a Hyper-V machine to an ESXi machine. Here are the steps I typed out verbatim from an r/Homelab Discord server post I made:
+My migration journey began with a plan of sorts to migrate my existing infrastructure from a Hyper-V machine to an ESXi machine. Here are the steps I planned out verbatim from an r/Homelab Discord server post I made:
 
 1. Backup all VMs and media to 4tb WD My Book
 2. Hypervisor install - Going from Hyper-V server to VMware, will install VMware on an SD card to boot from, create datastore for VMs on a 1tb NVMe drive
