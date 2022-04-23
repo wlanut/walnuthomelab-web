@@ -29,10 +29,10 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-# editPost:
-#     URL: "https://github.com/wlanut/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
+editPost:
+    URL: "https://github.com/wlanut/walnuthomelab-web/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 So if we're following the diagram path from my previous post, the first step in the chain is the hand-off of the WAN connection from my ATT gateway to my Fortigate firewall. That being said, I'll focus a few posts on that handoff and some other helpful things I use to manage my Fortigate.

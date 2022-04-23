@@ -29,10 +29,10 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-# editPost:
-#     URL: "https://github.com/wlanut/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
+editPost:
+    URL: "https://github.com/wlanut/walnuthomelab-web/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 After the dense stream of consciousness that was my last post, I'd like to spend the next few posts giving you a brief overview of the elements that make up my current homelab. Seeing as there is a lot to cover from each of those elements, I'll try to break the overview into several more manageable chunks instead of a single all-encompassing wall of text. To start us off, here's a refresher on the logical diagram of my lab:

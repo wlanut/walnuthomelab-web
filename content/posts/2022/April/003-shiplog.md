@@ -29,10 +29,10 @@ cover:
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
-# editPost:
-#     URL: "https://github.com/wlanut/content"
-#     Text: "Suggest Changes" # edit text
-#     appendFilePath: true # to append file path to Edit link
+editPost:
+    URL: "https://github.com/wlanut/walnuthomelab-web/tree/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 Now that we've taken a trip to the past, let's play some catch-up! I've done quite a lot with my homelab since that old post, and I'd like to share what worked, what didn't, and what I'm still implementing.
 
