@@ -23,7 +23,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: WalnutHomelab
-  description: "WalnutHomelab description"
+  description: "WalnutHomelab descriptin"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors

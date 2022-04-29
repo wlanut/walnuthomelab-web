@@ -23,7 +23,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-    image: "/img/2022/April/002-timecapsule/timecapsule_cover.png" # image path/url
+    image: "img/timecapsule_cover.png" # image path/url
     alt: "<alt text>" # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -31,14 +31,14 @@ cover:
 editPost:
     URL: "https://github.com/wlanut/walnuthomelab-web/tree/master/content"
     Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    appendFilePath: true # to append file path to Edit lin
 ---
 
 
 
 We're taking a short trip back to approximately 1 year ago when I made my first and only "post" documenting the state of my homelab at any given point in time. I'm leaving the entirety of what follows unmodified for posterity. Since then, I've relocated my homelab to a new residence, made a large number of changes to both the physical and virtual infrastructure, and learned many lessons along the way. That, however, will be for a future post.
 
-![img1](/img/2022/April/002-timecapsule/homelabfirst.jpg)
+![img1](img/homelabfirst.jpg)
 
 
 ## An evolving system
