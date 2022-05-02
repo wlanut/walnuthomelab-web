@@ -24,7 +24,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 
 cover:
-    image: "/img/fortigate/fortigate_cover.png" # image path/url
+    image: "img/fortigate_cover.png" # image path/url
     alt: "There should be an image here..." # alt text
     caption: "<text>" # display caption under cover
     relative: false # when using page bundles set this to true
