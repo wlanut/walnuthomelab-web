@@ -135,6 +135,10 @@ menu:
       name: search
       url: /search/
       weight: 10
+    - identifier: about
+      name: about
+      url: "https://oelsherif.com"
+      weight: 10
     - identifier: Github
       name: github
       url: "https://github.com/wlanut"
