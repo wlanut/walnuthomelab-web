@@ -66,7 +66,7 @@ We can utilize this script using Ansible in one of two ways.
 
 **Method 1 - ansible.builtin.script**
 
-```
+```yaml
 - name:
     ansible.builtin.script: /home/username/ssh-add.exp
     args:
