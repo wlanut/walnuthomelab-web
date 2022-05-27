@@ -95,7 +95,7 @@ As long as an SSH agent exists and is running, these tasks will add our key to t
 
 The secret sauce for all of this is **Ansible Vault**. Since we're using Ansible to execute our script/commands, we can just `ansible-vault encrypt` our secrets, and have our passphrase - previously plain text - now encrypted at rest. If you need more info on Ansible Vault, check out [the documentation](https://docs.ansible.com/ansible/latest/user_guide/vault.html).
 
-You can use vault with either of the above described methods. For **Method 1**, you'll want to encrypt the expect script you're calling, using [vault **file** encryption](https://docs.ansible.com/ansible/latest/user_guide/vault.html#encrypting-files-with-ansible-vault). In **Method 2**, you'll want to list the passphrase as a variable in your task, and encrypt your vars file (or use [vault **variable** encryption](https://docs.ansible.com/ansible/latest/user_guide/vault.html#encrypting-files-with-ansible-vault)).  The reason I'm using Method 2 because I like being able to use variables to keep things nice and short. It also means I can encrypt just the variable I want to hide without having to obfuscate the entire file.
+You can use vault with either of the above described methods. For **Method 1**, you'll want to encrypt the expect script you're calling, using [vault **file** encryption](https://docs.ansible.com/ansible/latest/user_guide/vault.html#encrypting-files-with-ansible-vault). In **Method 2**, you'll want to list the passphrase as a variable in your task, and encrypt your vars file (or use [vault **variable** encryption](https://docs.ansible.com/ansible/latest/user_guide/vault.html#encrypting-files-with-ansible-vault)).  The reason I'm using Method 2 is because I like being able to use variables to keep things nice and tidy. It also means I can encrypt just the variable I want to hide without having to obfuscate the entire file.
 
 In addition to encrypting your secret, you can also add the ["no_log" argument](https://docs.ansible.com/ansible/latest/reference_appendices/faq.html#how-do-i-keep-secret-data-in-my-playbook) to any task or playbook to prevent the decrypted file/string from showing in the verbose ansible logging. Make sure to leave this off while debugging.
 
@@ -128,7 +128,7 @@ Note that I've added an additional role at the end "ssh-kill_agent", the tasks/m
       executable: bash
 ```
 
-When creating a cron job for this playbook, we'll need to manually start the SSH agent using `eval "$(ssh-agent -s)"` at the beginning of the line. The role at the end sill simply kill the SSH agent that was created by cron to ensure that we aren't leaving additional agents behind. You can use `pidof ssh-agent` to verify how many SSH agent processes are running, `eval "$(ssh-agent -k)"` to kill the current session, and `killall ssh-agent` to kill all running SSH agent processes.
+When creating a cron job for this playbook, we'll need to manually start the SSH agent using `eval "$(ssh-agent -s)"` at the beginning of the line. The role at the end will simply kill the SSH agent that was created by cron to ensure that we aren't leaving additional agents behind. You can use `pidof ssh-agent` to verify how many SSH agent processes are running, `eval "$(ssh-agent -k)"` to kill the current session, and `killall ssh-agent` to kill all running SSH agent processes.
 
 ## Crontab
 
