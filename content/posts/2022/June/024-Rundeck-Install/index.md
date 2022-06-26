@@ -35,7 +35,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-## Installation Options
+# Installation Options
 
 In this post, I'm going to cover **2** methods for installing and configuring Rundeck: **Docker** installation, and **Local** installation.
 
