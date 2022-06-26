@@ -35,11 +35,9 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# Installing Rundeck
+# Installation Options
 
-## Installation Options
-
-I'll do my best to detail **2** methods for installing/configuring Rundeck: **Docker** and **Local** installation.
+In this post, I'm going to cover **2** methods for installing and configuring Rundeck: **Docker** installation, and **Local** installation.
 
 During the process of my initial **Docker** installation, I was able to get Rundeck in a "working" state, (functioning projects/jobs/commands/nodes, etc.), at least until I wanted to use the Ansible plugin. Rundeck with Ansible integration requires Ansible to be installed on the same "server", so if we have Rundeck in a container, we would need Ansible to be installed within that container. I couldn't figure out how to do this, and it seemed rather pointless as it's not very well documented, so I ended up with the **Local** server installation method, using a Postgres container as my DB.
 
