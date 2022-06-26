@@ -215,6 +215,6 @@ If you check `System > Feature Visibility` again you should see your newly uploa
 
 ![play_output](img/cert_fortigate.png)
 
-# Wrap-Up
+# Wrap Up
 
 Well, that about does it. If you have any concerns or want to contribute, or just want to tell me I did something wrong, feel free to open an issue on my GitHub repo linked above. Is that how it works? Who knows, correct me there.
