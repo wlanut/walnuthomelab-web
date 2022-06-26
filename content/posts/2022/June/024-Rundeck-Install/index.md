@@ -169,7 +169,7 @@ So basically you'll want to create a file named `realm.properties` and mount it 
 
 The default realm.properties file (with changed password) looks something like this:
 
-```
+```ini
 #
 # This file defines users passwords and roles for a HashUserRealm
 #
