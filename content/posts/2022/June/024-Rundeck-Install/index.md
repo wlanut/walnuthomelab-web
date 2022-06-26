@@ -203,7 +203,7 @@ admin:YourNewPassword,user,admin,architect,deploy,build
 #job-viewer:admin,user,job_viewer
 ```
 
-## Projects:
+## Projects
 
 [Project creation documentation](https://docs.rundeck.com/docs/manual/projects/configuration.html)
 
@@ -213,7 +213,7 @@ admin:YourNewPassword,user,admin,architect,deploy,build
 
 > Rundeck only accepts keys generated with RSA, use `ssh-keygen -t rsa -b 4096 -m PEM`
 
-## Nodes:
+## Nodes
 
 [Setting up Nodes/SSH](https://docs.rundeck.com/docs/learning/howto/ssh-on-linux-nodes.html)
 
