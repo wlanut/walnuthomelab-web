@@ -161,7 +161,7 @@ So basically you'll want to create a file named `realm.properties` and mount it 
 
 ### Changing default credentials - Local
 
-- `Nano /etc/rundeck/realm.properties` (or use your editor of choice)
+- `nano /etc/rundeck/realm.properties` (or use your editor of choice)
 - Find the line `admin:admin,user,admin,architect,deploy,build`
 - Change to `admin:YourNewPassword,user,admin,architect,deploy,build`
 
