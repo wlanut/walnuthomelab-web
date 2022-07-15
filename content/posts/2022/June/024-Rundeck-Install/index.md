@@ -287,10 +287,10 @@ server {
         proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header    X-Forwarded-Proto $scheme;
 
-        proxy_pass          http://rundeck.walnuthomelab.com:4440;
+        proxy_pass          http://192.168.1.20:4440;
         proxy_read_timeout  90;
 
-        proxy_redirect      http://rundeck.walnuthomelab.com:4440 https://rundeck.walnuthomelab.com;
+        proxy_redirect      http://192.168.1.20:4440 https://rundeck.walnuthomelab.com;
         }
 }
 
